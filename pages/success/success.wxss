@@ -1,0 +1,21 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+}
+.success text {
+  font-size: 16pt;
+  font-weight: bold;
+}
+.success button {
+  background-color: var(--themeColor);
+  color: white;
+  font-weight: bold;
+  margin: 30rpx 0 0 0;
+  width: 38%;
+}
+/*# sourceMappingURL=success.wxss.map */

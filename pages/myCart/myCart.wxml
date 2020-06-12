@@ -1,0 +1,39 @@
+<!--pages/myCart/myCart.wxml-->
+<!--  1、“我的购物车” -->
+<view class='myCart'>
+    <text>我的购物车</text>
+</view>
+<!--  2、商家名称与选购餐品的列表 -->
+<!--  2.1 商家名称-->
+<view class='shop'>
+    <text>{{shop}}</text>
+</view>
+<!--  2.2 选购餐品的列表 -->
+<view class='list'>
+    <view class='item' wx:for='{{foodsList}}' wx:for-item='cart' wx:key='{{cart.id}}'>
+        <image src='{{cart.poster}}' class='poster'></image>
+        <view class='detail'>
+            <text class='title'>{{cart.title}}</text>
+            <text>{{cart.fdetails}}</text>
+            <text>{{cart.price}}元 x {{cart.num}}份</text>
+        </view>
+        <view>
+            <text>{{cart.price*cart.num}}元</text>
+        </view>
+    </view>
+</view>
+<!--  3、提交区域 -->
+<view id='cart'>
+    <view class='sum'>
+        <text>合计{{allPrice}}元</text>
+    </view>
+    <text class='submit' bindtap="handleSub">提交</text>
+</view>
+<!-- 4、模态框 -->
+<modal hidden='{{hiddenStatus}}' title='确认个人信息' confirm-text='正确' cancel-text='修改' bindconfirm='confirm' bindcancel='modify'>
+    <text>确认卡号 :{{cardNum}}</text>
+    <view></view>
+    <text>确认地址 :{{address}}</text>
+    <view></view>
+    <text>确认手机号:{{tel}}</text>
+</modal>

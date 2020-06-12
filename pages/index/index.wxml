@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="index_container">
+    <view class="index_swiper">
+        <swiper autoplay indicator-dots circular>
+            <swiper-item wx:for="{{swiperList}}" wx:key="item{{index}}">
+                <image src="{{item.src}}" mode="widthFix"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="cateList">
+        <view class="cateItem">
+            <image src="../../images/rice.png" mode="widthFix"></image>
+            <text>主食</text>
+        </view>
+        <view class="cateItem">
+            <image src="../../images/noodles.png" mode="widthFix"></image>
+            <text>地方菜</text>
+        </view>
+        <view class="cateItem">
+            <image src="../../images/coffee.png" mode="widthFix"></image>
+            <text>茶饮</text>
+        </view>
+        <view class="cateItem">
+            <image src="../../images/cake.png" mode="widthFix"></image>
+            <text>甜品</text>
+        </view>
+    </view>
+    <view class="special">
+        <image src="../../images/foods.jpg" mode="widthFix"></image>
+    </view>
+    <view class="shopList">
+        <view class="title">附近商家推荐</view>
+        <view class="shopItem" wx:for="{{shopList}}"  wx:key="{{item.sid}}" bindtap='goToDetails' data-sid='{{item.sid}}'>
+            <image src="{{item.poster}}" mode="widthFix" class="poster"></image>
+            <view class="details">
+                <view class="name">{{item.title}}</view>
+                <view class="sale">{{item.sales}}</view>
+                <view class="price">{{item.priceperson}}</view>
+            </view>
+            <image src="../../images/plus.png" mode="widthFix" class="plus"></image>
+        </view>
+    </view>
+</view>

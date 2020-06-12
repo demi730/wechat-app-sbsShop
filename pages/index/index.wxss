@@ -1,0 +1,74 @@
+.index_swiper swiper {
+  height: 300rpx;
+}
+.index_swiper swiper image {
+  width: 100%;
+  height: 100%;
+}
+.cateList {
+  margin: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.cateList .cateItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cateList .cateItem image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.special image {
+  width: 100%;
+}
+.shopList .title {
+  text-align: center;
+  margin-top: 30rpx;
+  color: #0f0f88;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: '华文隶书';
+}
+.shopList .shopItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid gray;
+  box-sizing: border-box;
+  margin: 25rpx;
+}
+.shopList .shopItem .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 30rpx;
+  width: 60%;
+}
+.shopList .shopItem .details .name {
+  font-size: 14pt;
+  font-weight: bold;
+  line-height: 60rpx;
+}
+.shopList .shopItem .details .sale {
+  font-size: 12pt;
+  line-height: 40rpx;
+  color: gray;
+}
+.shopList .shopItem .details .price {
+  font-size: 12pt;
+  line-height: 40rpx;
+  color: gray;
+}
+.shopList .shopItem .poster {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 5rpx;
+}
+.shopList .shopItem .plus {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 30rpx;
+}
+/*# sourceMappingURL=index.wxss.map */

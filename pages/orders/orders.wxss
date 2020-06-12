@@ -1,0 +1,87 @@
+/* pages/orders/orders.wxss */
+page{
+    padding-bottom: 150rpx;
+}
+/* 1、“我的购物车”样式 */
+.myCart {
+    height: 150rpx;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    font-weight: bold;
+}
+/* 2、商家名称与选购餐品的列表 */
+.list {
+    margin: 10rpx 40rpx;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rpx 0;
+}
+.top .shop{
+    flex: 4;
+    font-size: 18pt;
+    color: #328eeb;
+    font-weight: bold;
+}
+.top .time{
+    flex: 2;
+    text-align: right;
+    font-size: 10pt;
+}
+.order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20rpx 0;
+    border-bottom: 1rpx solid #ccc;
+}
+.poster {
+    width: 160rpx;
+    height: 160rpx;
+}
+.detail {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: rgba(148, 141, 141, 0.897);
+    font-size: 10pt;
+    line-height: 40rpx;
+}
+.title {
+    font-size: 14pt;
+    color: black;
+    font-weight: bold;
+    line-height: 60rpx;
+}
+.total {
+    text-align: right;
+    font-size: 14pt;
+    color: #aaa;
+    font-weight: bold;
+    margin: 25rpx 0;
+}
+/* 3、提交区域样式 */
+#back {
+    height: 150rpx;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#back button {
+    background-color: #328eeb;
+    color:white;
+}

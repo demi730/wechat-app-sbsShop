@@ -1,0 +1,35 @@
+<!--pages/orders/orders.wxml-->
+<!--  1、“我的购物车” -->
+<view class='myCart'>
+    <text>我的订单</text>
+</view>
+<!--  2、商家名称与选购餐品的列表 -->
+<view class='list'>
+    <view class='item' wx:for='{{orders}}' wx:for-item='item1' wx:key='{{item1.time}}'>
+        <!--  2.1 商家名称-->
+        <view class="top">
+            <view class='shop'>
+                <text>{{item1.shoptitle}}</text>
+            </view>
+            <!-- 下单时间-->
+            <view class="time">{{item1.time}}</view>
+        </view>
+        <!--  2.2 选购餐品的列表 -->
+        <view class="order" wx:for="{{item1.foodsList}}" wx:for-item="item2">
+            <image src='{{item2.poster}}' class='poster'></image>
+            <view class='detail'>
+                <text class='title'>{{item2.title}}</text>
+                <text>{{item2.fdetails}}</text>
+                <text>{{item2.price}}元 x {{item2.num}}份</text>
+            </view>
+            <view>
+                <text>{{item2.price*item2.num}}元</text>
+            </view>
+        </view>
+        <view class="total">共计{{item1.allnum}}件 共{{item1.allprice}}元</view>
+    </view>
+</view>
+<!--  3、返回区域 -->
+<view id='back'>
+    <button bindtap="goBack">返回</button>
+</view>

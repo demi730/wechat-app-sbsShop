@@ -1,0 +1,97 @@
+/* pages/details/details.wxss */
+.shop{
+  background-color: rgba(0, 0, 0, 0.596);
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18pt;
+}
+.foodsList {
+  margin: 10rpx;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid grey;
+}
+.poster {
+  height: 150rpx;
+  width: 150rpx;
+  margin: 5rpx;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 45%; /*靠左对齐需要设置该属性*/
+  font-size: 10pt;
+}
+.stepper {
+  width: 80px;
+  height: 26px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0 20rpx;
+}
+.title {
+  font-size: 14pt;
+  font-weight: bold;
+  line-height: 60rpx;
+}
+.price {
+  font-size: 12pt;
+  line-height: 40rpx;
+  color: orangered;
+}
+.stepper{
+  text {
+    width: 19px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+  }
+}
+.input {
+  width: 40px;
+  height: 26px;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.stepper{
+  .normal {
+    color: black;
+  }
+}
+.stepper{
+  .minus {
+    color: #ccc;
+  }
+}
+.sum {
+  height: 150rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #328eeb;
+  font-size: 16pt;
+  /* 下面两句：固定在底端*/
+  position: fixed;
+  bottom: 0;
+}
+.goCart {
+  font-size: 18pt;
+  font-weight: bold;
+}

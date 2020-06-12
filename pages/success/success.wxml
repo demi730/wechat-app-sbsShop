@@ -1,0 +1,5 @@
+<!--pages/success/success.wxml-->
+<view class="success">
+    <text>付款成功</text>
+    <button bindtap="handleTap">返回首页</button>
+</view>

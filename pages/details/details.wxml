@@ -1,0 +1,33 @@
+<!--pages/details/details.wxml-->
+<!-- 商家名称 -->
+<view class='shop'>
+    <text>{{shop.title}}</text>
+</view>
+<!-- 餐品列表-->
+<view class='foodsList'>
+    <!-- 循环渲染每一种餐品 -->
+    <view class='list-item' wx:for='{{foodsList}}' wx:for-item='foods' wx:key='{{foods.fid}}'>
+        <view>
+            <image src='{{foods.poster}}' class='poster'></image>
+        </view>
+        <view class='text'>
+            <text class='title'>{{foods.title}}</text>
+            <text>{{foods.fdetails}}</text>
+            <text class='price'>单价：{{foods.price}}元</text>
+        </view>
+        <view class='stepper'>
+            <text class='minus' bindtap='bindChange' data-fid='{{foods.fid}}' data-operation="{{-1}}">-</text>
+            <input class='input' value='{{foods.num}}' bindchange='bindManual' data-fid='{{foods.fid}}'/>
+            <text class='normal' bindtap='bindChange' data-fid='{{foods.fid}}' data-operation="{{1}}">+</text>
+        </view>
+    </view>
+</view>
+<!-- 结算区域-->
+<view class='sum'>
+    <view>
+        <text>共计{{allNum}}件 共{{allPrice}}元</text>
+    </view>
+    <view bindtap='goCart'>
+        <text class='goCart'>去结算</text>
+    </view>
+</view>

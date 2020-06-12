@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfcdca78-e188-43ad-94e0-b37f1b76ec3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/details/details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/details/details.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/details/details.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my2/my2.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my2/my2.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my2/my2.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my2/my2.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/common.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aElvQq0vEklYO8TU67LIK057cC" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WeChatProjects\sbsShop\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfcdca78-e188-43ad-94e0-b37f1b76ec3e" name="Default Changelist" comment="" />
+      <created>1586308865107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586308865107</updated>
+      <workItem from="1586308874692" duration="153000" />
+      <workItem from="1586309077806" duration="2483000" />
+      <workItem from="1586313503017" duration="6555000" />
+      <workItem from="1586333164463" duration="3504000" />
+      <workItem from="1586413325028" duration="5445000" />
+      <workItem from="1586825401593" duration="15659000" />
+      <workItem from="1587433013167" duration="3077000" />
+      <workItem from="1589247309669" duration="7028000" />
+      <workItem from="1589289368771" duration="3543000" />
+      <workItem from="1589527018422" duration="4142000" />
+      <workItem from="1589612794559" duration="595000" />
+      <workItem from="1589849381674" duration="31000000" />
+      <workItem from="1590454170891" duration="15852000" />
+      <workItem from="1591420121544" duration="1209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

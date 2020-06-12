@@ -1,0 +1,43 @@
+<!--pages/my/my.wxml-->
+<!-- 登录面板-->
+<view class='myLogin'>
+    <block wx:if='{{isLogin}}'>
+        <!-- Open-data:可以不用用户授权直接获得头像和昵称 -->
+        <open-data class='myIcon' type="userAvatarUrl"></open-data>
+        <open-data class='nickName' type="userNickName"></open-data>
+    </block>
+    <!-- open-type='getUserInfo'引导用户授权-->
+    <button wx:else open-type='getUserInfo' bindgetuserinfo='getMyInfo'>未登录 点此登录</button>
+</view>
+<!-- 个人信息与按钮-->
+<block wx:if='{{isLogin}}'>
+    <!--个人信息-->
+    <view class='list'>
+        <view class='item'>
+            <text>个人卡号</text>
+            <text class='info'>{{cardNum}}</text>
+        </view>
+        <view class='item'>
+            <text>个人地址</text>
+            <text class='info'>{{address}}</text>
+        </view>
+        <view class='item'>
+            <text>个人电话</text>
+            <text class='info'>{{tel}}</text>
+        </view>
+    </view>
+    <!-- 按钮 -->
+    <view class='buttons'>
+        <button size="mini" bindtap='show'>修改信息</button>
+        <button size="mini" bindtap='myOrders'>我的订单</button>
+    </view>
+</block>
+<!-- 模态框-->
+<modal hidden='{{hiddenStatus}}' title='个人信息修改' confirm-text='确认修改' cancel-text='取消' bindconfirm='confirm' bindcancel='cancel'>
+    个人银行卡号填写[16位]
+    <input class='input' placeholder='{{cardNum}}' bindinput='fixCard'></input>
+    个人地址填写[xx市xx路xx号]
+    <input class='input' placeholder='{{address}}'  bindinput='fixAddress'></input>
+    个人手机号码填写[11位]
+    <input class='input' placeholder='{{tel}}' bindinput='fixTel'></input>
+</modal>
