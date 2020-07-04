@@ -1,0 +1,435 @@
+[ 2020-06-02T12:04:24+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.634992s ]
+INFO: [ app_init ] --END-- [ RunTime:3.191969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.293870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.293991s ]
+
+[ 2020-06-02T12:10:04+08:00 ] ::1 /foods/Index/queryAll?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.9713s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Sun" ) LIMIT 1   [ RunTime:0.4386s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Sun" )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010432s ]
+
+[ 2020-06-02T12:10:29+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2020-06-02T12:10:51+08:00 ] ::1 /foods/Index/queryAll?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Sun" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Sun" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2020-06-02T12:13:52+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2020-06-02T12:21:05+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006285s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2020-06-02T12:22:06+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2020-06-02T12:22:31+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2020-06-02T12:23:23+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2020-06-02T12:23:41+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2020-06-02T12:24:06+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2020-06-02T12:24:46+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2020-06-02T12:24:53+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2020-06-02T12:33:03+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2020-06-02T12:33:24+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2020-06-02T12:33:50+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2020-06-02T12:39:13+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+
+[ 2020-06-02T12:39:47+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2020-06-02T12:43:07+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2020-06-02T14:19:12+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2020-06-02T14:19:18+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.3959s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2020-06-02T14:20:14+08:00 ] ::1 /foods/Index/queryAll?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Sun" ) LIMIT 1   [ RunTime:0.0716s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Sun" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2020-06-02T14:22:54+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025938s ]
+
+[ 2020-06-02T14:23:05+08:00 ] ::1 /foods/Index/queryAll?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Sun" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Sun" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2020-06-02T14:25:06+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2020-06-02T14:26:17+08:00 ] ::1 /foods/Index/getOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.2124s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2020-06-02T14:26:43+08:00 ] ::1 /foods/Index/getOrder?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Sun" )  [ RunTime:0.0243s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.1045s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='23' )  [ RunTime:0.0951s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='24' )  [ RunTime:0.0005s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='25' )  [ RunTime:0.0004s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='26' )  [ RunTime:0.0005s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='27' )  [ RunTime:0.0008s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='28' )  [ RunTime:0.0007s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='29' )  [ RunTime:0.0005s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='30' )  [ RunTime:0.0004s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='31' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2020-06-02T14:37:25+08:00 ] ::1 /foods/Index/getOrder?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Sun" )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0452s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='23' )  [ RunTime:0.0012s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='24' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2020-06-02T14:37:32+08:00 ] ::1 /foods/Index/getOrder?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Sun" )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0048s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='23' )  [ RunTime:0.0005s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='24' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2020-06-02T14:39:38+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.034786s ]
+
+[ 2020-06-02T14:39:57+08:00 ] ::1 /foods/Index/queryAll?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Sun" ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Sun" )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020875s ]
+
+[ 2020-06-02T14:39:59+08:00 ] ::1 /foods/Index/getOrder?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Sun" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0048s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='23' )  [ RunTime:0.0004s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='24' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002049s ]
+

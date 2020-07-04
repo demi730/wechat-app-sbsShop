@@ -1,0 +1,549 @@
+[ 2020-06-06T11:59:37+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.1173s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014634s ]
+
+[ 2020-06-06T12:02:23+08:00 ] ::1 /foods/Index/queryAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.1854s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.1406s ]
+SQL: INSERT INTO `users` (`nickName`) VALUES ('Hello Crab工作室') [ RunTime:0.2766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2020-06-06T12:03:56+08:00 ] ::1 /foods/Index/setAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4&cardNum=1234567890000000&address=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%AD%E5%B1%B1%E8%A5%BF%E8%B7%AF1%E5%8F%B7&tel=11111111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.0171s ]
+SQL: UPDATE `users` SET `address`='上海市徐汇区中山西路1号',`cardNum`='1234567890000000',`tel`='11111111111' WHERE ( nickName="Hello Crab工作室" ) [ RunTime:0.1615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2020-06-06T12:07:55+08:00 ] ::1 /foods/Index/setAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4&cardNum=1234567890000000&address=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%AD%E5%B1%B1%E8%A5%BF%E8%B7%AF1%E5%8F%B7&tel=11111111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `users` SET `address`='上海市徐汇区中山西路1号',`cardNum`='1234567890000000',`tel`='11111111111' WHERE ( nickName="Hello Crab工作室" ) [ RunTime:0.0813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2020-06-06T12:08:39+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2020-06-06T12:10:09+08:00 ] ::1 /foods/Index/queryAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2020-06-06T12:10:13+08:00 ] ::1 /foods/Index/setAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4&cardNum=1234567890000000&address=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%AD%E5%B1%B1%E8%A5%BF%E8%B7%AF1%E5%8F%B7&tel=11111111111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `users` SET `address`='上海市徐汇区中山西路1号',`cardNum`='1234567890000000',`tel`='11111111111' WHERE ( nickName="Hello Crab工作室" ) [ RunTime:0.0764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002236s ]
+
+[ 2020-06-06T12:14:52+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: select * from foods where sid=5 [ RunTime:0.0786s ]
+SQL: select title from shop where sid=5 [ RunTime:0.0185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2020-06-06T12:16:13+08:00 ] ::1 /foods/Index/queryAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2020-06-06T12:16:15+08:00 ] ::1 /foods/Index/setOrder?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4&shopTitle=%E7%BE%8E%E5%91%B3%E6%97%A5%E6%96%99%E5%85%89%E5%90%AF%E5%9F%8E%E5%BA%97&allNum=1&allPrice=45.00&item=%5B%7B%22title%22%3A%22%E6%97%A5%E5%BC%8F%E7%A7%8B%E5%88%80%E9%B1%BC%E5%AE%9A%E9%A3%9F%22%2C%22num%22%3A1%7D%5D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0406s ]
+SQL: INSERT INTO `order` (`nickName`,`shopTitle`,`allNum`,`allPrice`,`time`) VALUES ('Hello Crab工作室','美味日料光启城店','1','45.00','2020-06-06 12:16:15') [ RunTime:0.0953s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0651s ]
+SQL: INSERT INTO `item` (`foodTitle`,`num`,`oid`) VALUES ('日式秋刀鱼定食','1','25') [ RunTime:0.0526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2020-06-06T12:25:16+08:00 ] ::1 /foods/Index/getOrder?nickname=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2020-06-06T12:25:55+08:00 ] ::1 /foods/Index/getOrder?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0053s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='25' )  [ RunTime:0.1027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2020-06-06T12:27:28+08:00 ] ::1 /foods/Index/getOrder?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.240299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.240480s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0054s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='25' )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.232214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.232370s ]
+
+[ 2020-06-06T12:27:37+08:00 ] ::1 /foods/Index/getOrder?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.1055s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0429s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='25' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2020-06-06T12:30:14+08:00 ] ::1 /foods/Index/getOrder?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.754580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005923s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0061s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='25' )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.255772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.255891s ]
+
+[ 2020-06-06T12:46:21+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032863s ]
+
+[ 2020-06-06T13:00:49+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054403s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.2993s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060592s ]
+
+[ 2020-06-06T13:00:58+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0968s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2020-06-06T13:02:07+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.068439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.068585s ]
+
+[ 2020-06-06T13:02:11+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0070s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2020-06-06T13:12:46+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031357s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.2046s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.590006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.590109s ]
+
+[ 2020-06-06T13:13:49+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.062195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062331s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0171s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.087806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.087910s ]
+
+[ 2020-06-06T13:20:05+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.1323s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030897s ]
+
+[ 2020-06-06T13:28:41+08:00 ] ::1 /foods/Index/queryAll?nickName=Hello%20Crab%E5%B7%A5%E4%BD%9C%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007810s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0906s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Hello Crab工作室" ) LIMIT 1   [ RunTime:0.1973s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Hello Crab工作室" )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.093044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.093148s ]
+
+[ 2020-06-06T15:09:19+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029366s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.2819s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041348s ]
+
+[ 2020-06-06T15:09:32+08:00 ] ::1 /foods/Index/queryAll?nickName=Jaynebby%F0%9F%A6%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022078s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0526s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Jaynebby🦄" ) LIMIT 1   [ RunTime:0.1202s ]
+SQL: INSERT INTO `users` (`nickName`) VALUES ('Jaynebby🦄') [ RunTime:0.1848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2020-06-06T15:10:28+08:00 ] ::1 /foods/Index/setAll?nickName=Jaynebby%F0%9F%A6%84&cardNum=1234567890666666&address=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%AD%E5%B1%B1%E8%A5%BF%E8%B7%AF1%E5%8F%B7&tel=18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Jaynebby🦄" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `address`='上海市徐汇区中山西路1号',`cardNum`='1234567890666666',`tel`='18888888888' WHERE ( nickName="Jaynebby🦄" ) [ RunTime:0.0958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2020-06-06T15:11:55+08:00 ] ::1 /foods/Index/getShopList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `shop` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `shop`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2020-06-06T15:16:43+08:00 ] ::1 /foods/Index/queryAll?nickName=Jaynebby%F0%9F%A6%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Jaynebby🦄" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Jaynebby🦄" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2020-06-06T15:16:48+08:00 ] ::1 /foods/Index/setAll?nickName=Jaynebby%F0%9F%A6%84&cardNum=1234567890666666&address=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%BE%90%E6%B1%87%E5%8C%BA%E4%B8%AD%E5%B1%B1%E8%A5%BF%E8%B7%AF1%E5%8F%B7&tel=18888888888
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Jaynebby🦄" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `users` SET `address`='上海市徐汇区中山西路1号',`cardNum`='1234567890666666',`tel`='18888888888' WHERE ( nickName="Jaynebby🦄" ) [ RunTime:0.0854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2020-06-06T15:19:12+08:00 ] ::1 /foods/Index/getFoodsBySid?Sid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: select * from foods where sid=1 [ RunTime:0.0336s ]
+SQL: select title from shop where sid=1 [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2020-06-06T15:20:41+08:00 ] ::1 /foods/Index/queryAll?nickName=Jaynebby%F0%9F%A6%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` WHERE ( nickName="Jaynebby🦄" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE ( nickName="Jaynebby🦄" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2020-06-06T15:20:44+08:00 ] ::1 /foods/Index/setOrder?nickName=Jaynebby%F0%9F%A6%84&shopTitle=%E7%BC%98%E6%9D%A5%E8%81%9A%E5%BF%AB%E9%A4%90&allNum=2&allPrice=57.00&item=%5B%7B%22title%22%3A%22%E7%BE%8E%E5%91%B3%E5%BF%AB%E9%A4%90%22%2C%22num%22%3A1%7D%2C%7B%22title%22%3A%22%E8%82%A5%E7%89%9B%E5%A5%97%E9%A4%90%22%2C%22num%22%3A1%7D%5D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0268s ]
+SQL: INSERT INTO `order` (`nickName`,`shopTitle`,`allNum`,`allPrice`,`time`) VALUES ('Jaynebby🦄','缘来聚快餐','2','57.00','2020-06-06 15:20:43') [ RunTime:0.0550s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0316s ]
+SQL: INSERT INTO `item` (`foodTitle`,`num`,`oid`) VALUES ('肥牛套餐','1','26') [ RunTime:0.0038s ]
+SQL: INSERT INTO `item` (`foodTitle`,`num`,`oid`) VALUES ('美味快餐','1','26') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002581s ]
+
+[ 2020-06-06T15:31:23+08:00 ] ::1 /foods/Index/getOrder?nickName=Sun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Sun" )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2020-06-06T15:32:32+08:00 ] ::1 /foods/Index/getOrder?nickName=Jaynebby
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Jaynebby" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2020-06-06T15:32:38+08:00 ] ::1 /foods/Index/getOrder?nickName=Jaynebby?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.1013s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Jaynebby?" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2020-06-06T15:34:22+08:00 ] ::1 /foods/Index/getOrder?nickName=Jaynebby?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Jaynebby?" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2020-06-06T15:35:21+08:00 ] ::1 /foods/Index/getOrder?nickName=Jaynebby
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000132s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003483s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Jaynebby" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2020-06-06T15:36:25+08:00 ] ::1 /foods/Index/getOrder?nickName=Jaynebby%F0%9F%A6%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Jaynebby🦄" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0045s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='26' )  [ RunTime:0.0766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2020-06-06T15:37:14+08:00 ] ::1 /foods/Index/getOrder?nickName=Jaynebby%F0%9F%A6%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `order` WHERE ( nickName="Jaynebby🦄" )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `itemfoods` [ RunTime:0.0047s ]
+SQL: SELECT `poster`,`title`,`fdetails`,`price`,`num` FROM `itemfoods` WHERE ( 1=1 AND oid='26' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+

@@ -1,0 +1,17 @@
+[ 2020-03-25T11:13:31+08:00 ] ::1 /foods/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016846s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.041346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026995s ]
+

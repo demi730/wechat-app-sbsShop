@@ -6,8 +6,7 @@
     "pages/myCart/myCart",
     "pages/my/my",
     "pages/details/details",
-    "pages/orders/orders",
-    "pages/my2/my2"
+    "pages/orders/orders"
   ],
   "window": {
     "backgroundTextStyle": "light",
